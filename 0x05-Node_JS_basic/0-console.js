@@ -1,3 +1,5 @@
-const displayMessage = require('./0-console');
+function displayMessage(string) {
+  console.log(string);
+}
 
-displayMessage("Hello NodeJS!");
+module.exports = displayMessage;
